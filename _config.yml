@@ -20,7 +20,7 @@
 
 title: X5G
 description:  An Open, Programmable, Multi-vendor 5G O-RAN Testbed with NVIDIA ARC and OpenAirInterface
-baseurl: /odin # the subpath of your site, e.g. /support
+baseurl: # the subpath of your site, e.g. /support
 url: https://x5g.org # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
