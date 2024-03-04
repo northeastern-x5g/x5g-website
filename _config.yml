@@ -20,8 +20,8 @@
 
 title: X5G
 description: SE
-baseurl: /odin # the subpath of your site, e.g. /support
-url: https://x5g.github.io/odin/ # the base hostname AND PROTOCOL for your site, e.g. http://example.com
+# baseurl: /odin # the subpath of your site, e.g. /support
+url: https://x5g.github.io/ # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
 content_type:  #Define whether this is a knowledge base, help center, or something else
