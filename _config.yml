@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: X5G
+title: X5G - An Open, Programmable, Multi-vendor 5G O-RAN Testbed
 description:  An Open, Programmable, Multi-vendor 5G O-RAN Testbed with NVIDIA ARC and OpenAirInterface
 baseurl: # the subpath of your site, e.g. /support
 url: https://x5g.org # the base hostname AND PROTOCOL for your site, e.g. http://example.com
