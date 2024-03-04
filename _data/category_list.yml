@@ -2,11 +2,13 @@
 
 
 using-subcategories:
-  name: Using Subcategories
+  name: image1.jpg
   description: Learn to use subcategories!
+  image: image1.jpg
 using-odin:
   name: Using Odin
   description: Welcome to Odin, time to get started
+  image: image2.jpg
 customizing-odin:
   name: Customizing Odin
   description: Welcome to Odin, time to get started

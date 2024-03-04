@@ -32,6 +32,12 @@
       <a  class="nav-links" href="{{ site.nav_item_three_link }}">{{ site.nav_item_three }}</a>
     </li>
     {% endif %}
+    {% if site.nav_item_four == null %}
+    {% else %}
+    <li class="mx-4">
+      <a  class="nav-links" href="{{ site.nav_item_four_link }}">{{ site.nav_item_four }}</a>
+    </li>
+    {% endif %}
     <li>
       <a href="{{ site.nav_button_link }}" style="height: auto;" class="btn btn-lg btn-outline py-2">{{ site.nav_button }}</a>
     </li>
