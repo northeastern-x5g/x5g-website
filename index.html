@@ -11,7 +11,15 @@ title: Home
           <div class="column col-10 text-center">
             <h2 class="text-secondary">Testbed Images</h2>
           </div>
-  
+        <div class="column col-4 col-md-6 col-sm-12">
+            <a href="{{ site.baseurl }}/{{ category_name | slugify }}">
+              <div class="card card-link">
+                <div class="card-body text-center my-4">
+                  <img style="width: 200px; height: 400px;" src="/assets/arch.png"/>
+                </div>
+              </div>
+            </a>
+          </div>
           <div class="column col-3 col-md-6 col-sm-12">
             <a href="{{ site.baseurl }}/{{ category_name | slugify }}">
               <div class="card card-link">
@@ -22,16 +30,8 @@ title: Home
               </div>
             </a>
           </div>
-          <!-- <div class="column col-4 col-md-6 col-sm-12">
-            <a href="{{ site.baseurl }}/{{ category_name | slugify }}">
-              <div class="card card-link">
-                <div class="card-body text-center my-4">
-                  <img style="width: 200px; height: 400px;" src="/odin/assets/image12.jpg"/>
-                </div>
-              </div>
-            </a>
-          </div> -->
-          <div class="column col-4 col-md-6 col-sm-12">
+    
+          <div class="column col-5 col-md-6 col-sm-12">
             <a href="{{ site.baseurl }}/{{ category_name | slugify }}">
               <div class="card card-link">
                 <div class="card-body text-center my-4">
