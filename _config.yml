@@ -27,10 +27,10 @@ permalink: /:categories/:title
 content_type:  #Define whether this is a knowledge base, help center, or something else
 use_authors: true #Set this to false to disable showing post authors
 
-brand_logo: logo_w.png
+brand_logo: logo_w_2.png
 brand_logo_nu: nu.png
 brand_name: X5G
-logo_new: logo_w.png
+logo_new: logo_w_2.png
 
 header: An Open, Programmable, Multi-vendor 5G O-RAN Testbed with NVIDIA ARC and OpenAirInterface
 subheader: X5G is  the first 8-node network deployment of the NVIDIA Aerial Research Cloud (ARC), with the Aerial SDK for the PHY layer, accelerated on Graphics Processing Unit (GPU), and through its integration with higher layers from the
