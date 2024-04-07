@@ -489,9 +489,9 @@
   font-size: 1.2em;
   margin-bottom: 10px;
 }
-@media (min-width: 576px) {
-  .team-column {
-      flex: 1; /* Reset the flex property for larger screens */
-      margin-bottom: 0; /* Remove the bottom margin for columns */
-  }
-}
+// @media (min-width: 576px) {
+//   .team-column {
+//       flex: 1; /* Reset the flex property for larger screens */
+//       margin-bottom: 0; /* Remove the bottom margin for columns */
+//   }
+// }
