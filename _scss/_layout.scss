@@ -470,12 +470,15 @@
 }
 .team-columns {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .team-column {
-  flex: 1;
+  flex: 1 1 100%;
   margin-right: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .team-column:last-child {
@@ -485,4 +488,10 @@
 .team-column h2 {
   font-size: 1.2em;
   margin-bottom: 10px;
+}
+@media (min-width: 576px) {
+  .team-column {
+      flex: 1; /* Reset the flex property for larger screens */
+      margin-bottom: 0; /* Remove the bottom margin for columns */
+  }
 }
