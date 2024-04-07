@@ -39,7 +39,8 @@
     </li>
     {% endif %}
     <li>
-      <a href="{{ site.nav_button_link }}" style="height: auto;" class="btn btn-lg btn-outline py-2">{{ site.nav_button }}</a>
+      <!-- <a href="{{ site.nav_button_link }}" style="height: auto;" class="btn btn-lg btn-outline py-2">{{ site.nav_button }}</a> -->
+      <a href="{{ {{ site.url }}{{ site.baseurl }} }}" style="height: auto;" class="btn btn-lg btn-outline py-2">{{ site.nav_button }}</a>
     </li>
   </ul>
 </nav>

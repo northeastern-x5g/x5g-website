@@ -468,3 +468,21 @@
     display: block !important;
   }
 }
+.team-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.team-column:last-child {
+  margin-right: 0;
+}
+
+.team-column h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
