@@ -203,4 +203,8 @@
       content: "\2715";
     }
   }
+  @media (max-width: 576px) {
+    font-size: $font-size-sm;
+    }
+  }
 }
