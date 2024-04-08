@@ -8,9 +8,9 @@ title: Home
     <div class="container-full">
       <div class="container grid-xl">
         <div class="columns negative-m-xl">
-          <div class="column col-12">
+          <!-- <div class="column col-12">
             <h2 class="text-secondary">Demonstration Video</h2>
-          </div>
+          </div> -->
               <div class="column col-12">
                 <div class="card">
                   <div class="card-body">
@@ -19,8 +19,7 @@ title: Home
                     </iframe>
                   </div>
                 </div>
-          </div>
-        </div>
+              </div>
 
           {% for category in site.data.category_list %}
           {% capture category_name %}{{ category | first }}{% endcapture %}
@@ -45,5 +44,4 @@ title: Home
           {% include more-help.html %}
         </div>
       </div>
-    </div>
     </div>
