@@ -204,6 +204,8 @@
     }
   }
   @media (max-width: 576px) {
-    font-size: $font-size-sm;
+    font-size: $font-size-sm; // Decrease font size for smaller screens
+    height: auto; // Allow height to adjust based on content
+    padding: $control-padding-y-sm $control-padding-x-sm; 
     }
 }
