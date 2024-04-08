@@ -203,9 +203,14 @@
       content: "\2715";
     }
   }
-  @media (max-width: 576px) {
+}
+
+@media only screen and (max-width: 576px) {
+  .btn {
     font-size: $font-size-sm; // Decrease font size for smaller screens
     height: auto; // Allow height to adjust based on content
-    padding: $control-padding-y-sm $control-padding-x-sm; 
-    }
+    padding: $control-padding-y-sm $control-padding-x-sm; // Adjust padding for smaller screens
+    // You may need to adjust other styles as needed for better responsiveness
+  }
 }
+
