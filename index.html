@@ -7,18 +7,48 @@ title: Home
   {% include header-home.html %}
     <div class="container-full">
       <div class="container grid-xl">
-        <div class="columns negative-m-xs">
-            <h2 class="text-secondary text-center">Demonstration Video</h2>
-              <!-- <div class="column col-12">
-                <div class="card">
-                  <div class="card-body">
-                    <iframe 
-                    src="https://northeastern-my.sharepoint.com/personal/polesemi_northeastern_edu/_layouts/15/embed.aspx?UniqueId=4029086d-ce3d-4850-ac0a-fc781803dc18&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="x5g-v2.mp4">
-                    </iframe>
-                  </div>
+        <div class="columns negative-m-s">
+          <div class="column col-12 text-center">
+            <h2 class="text-secondary">Testbed Images</h2>
+          </div>
+          <div class="column col-3 col-md-6 col-sm-12">
+            <a href="{{ site.baseurl }}/{{ category_name | slugify }}">
+              <div class="card card-link">
+                <div class="card-body text-center my-4">
+                  <!-- <img style="width: 200px; height: 400px;" src="/odin/assets/image_1.jpg"/> -->
+                  <img style="max-width: 200px" src="/assets/image10.jpg"/>
                 </div>
-              </div> -->
-
+              </div>
+            </a>
+          </div>
+    
+          <div class="column col-5 col-md-6 col-sm-12">
+            <a href="{{ site.baseurl }}/{{ category_name | slugify }}">
+              <div class="card card-link">
+                <div class="card-body text-center my-4">
+                  <img style="height: 410px;" src="/assets/image12.jpg"/>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="column col-4 col-md-6 col-sm-12">
+            <a href="{{ site.baseurl }}/{{ category_name | slugify }}">
+              <div class="card card-link">
+                <div class="card-body text-center my-4">
+                  <h5 class="text-bold">More Coming Soon..</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- <div class="column col-4 col-md-6 col-sm-12">
+            <a href="{{ site.baseurl }}/{{ category_name | slugify }}">
+              <div class="card card-link" style="width: 500px; height: 600px;">
+                <div class="card-body d-flex justify-content-center align-items-center my-4">
+                  <img style="width: 200px; height: 410px" src="/assets/image13.jpg"/>
+                </div>
+              </div>
+            </a>
+          </div> -->
           {% for category in site.data.category_list %}
           {% capture category_name %}{{ category | first }}{% endcapture %}
           {% assign page_category = site.data.category_list[category_name] %}
