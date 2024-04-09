@@ -11,7 +11,36 @@ title: Home
           <div class="column col-12 text-center">
             <h2 class="text-secondary">Demonstration Video</h2>
           </div>
+          <div class="column col-3 col-md-6 col-sm-12">
+            <a href="{{ site.baseurl }}/{{ category_name | slugify }}">
+              <div class="card card-link">
+                <div class="card-body text-center my-4">
+                  <!-- <img style="width: 200px; height: 400px;" src="/odin/assets/image_1.jpg"/> -->
+                  <img style="max-width: 200px" src="/assets/image10.jpg"/>
+                </div>
+              </div>
+            </a>
+          </div>
+    
+          <div class="column col-5 col-md-6 col-sm-12">
+            <a href="{{ site.baseurl }}/{{ category_name | slugify }}">
+              <div class="card card-link">
+                <div class="card-body text-center my-4">
+                  <img style="height: 410px;" src="/assets/image12.jpg"/>
+                </div>
+              </div>
+            </a>
+          </div>
           <div class="column col-4 col-md-6 col-sm-12">
+            <a href="{{ site.baseurl }}/{{ category_name | slugify }}">
+              <div class="card card-link">
+                <div class="card-body text-center my-4">
+                  <h5 class="text-bold">More Coming Soon..</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- <div class="column col-4 col-md-6 col-sm-12">
             <a href="{{ site.baseurl }}/{{ category_name | slugify }}" >
               <div class="card">
                 <div class="card-body text-center my-4">
@@ -19,7 +48,7 @@ title: Home
                 </div>
               </div>
             </a>
-          </div>
+          </div> -->
   
 
           {% for category in site.data.category_list %}
