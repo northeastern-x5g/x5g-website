@@ -48,11 +48,11 @@ instagram_username: #
 
 
 # Navivation
-nav_item_one: Architecture
+nav_item_one: Architecture & Testbed
 # nav_item_one_link: https://github.com/TeaGuns/odin
 
-nav_item_two: Testbed
-# nav_item_two_link: https://twitter.com/TheTeaGuns
+# nav_item_two: Testbed
+# # nav_item_two_link: https://twitter.com/TheTeaGuns
 
 nav_item_three: Publications
 nav_item_three_link: https://x5g.org/publications.html
